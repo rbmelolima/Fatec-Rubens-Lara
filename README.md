@@ -26,3 +26,10 @@ Aprofundar conhecimentos sobre criação e manipulação de tipos abstratos de d
 
 #### Ementa:
 Revisão dos conceitos básicos de tipos abstratos de dados. Pilhas, filas, alocação dinâmica, recursividade, listas encadeadas, tabelas de espalhamento e árvores. Aplicações das estruturas de dados em problemas computacionais.
+
+### ILP-007: Programação Orientada a Objetos
+#### Objetivo:
+Implementar de softwares com o uso de uma linguagem de programação orientada a objetos.
+
+#### Ementa:
+Conceitos e evolução da tecnologia de orientação a objetos. Limitações e diferenças entre o paradigma da programação estruturada em relação à orientação a objetos. Conceito de objeto, classe, métodos, atributos, herança, polimorfismo, agregação, associação, dependência, encapsulamento, mensagem e suas respectivas notações na linguagem padrão de representação da orientação a objetos. Implementação de algoritmos orientados a objetos utilizando linguagens de programação. Aplicação e uso das estruturas fundamentais da orientação a objetos.
