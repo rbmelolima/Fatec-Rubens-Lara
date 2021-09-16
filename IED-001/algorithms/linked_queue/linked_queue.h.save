@@ -1,0 +1,70 @@
+#ifndef LINKED_QUEUE_H_INCLUDED
+#define LINKED_QUEUE_H_INCLUDED
+
+template <typename Type>
+struct Node {
+    Type information;
+    Node<Type> *next;
+};
+
+template <typename Type>
+class LinkedQueue {
+  private:
+    Node<Type> *start;
+    Node<Type> *end;
+  public:
+    LinkedQueue() {
+        start = NULL;
+        end = NULL;
+    }
+
+    bool push(Type x) {
+        bool v = true;
+
+        Node<Type> *aux=new Node<Type>;//0
+
+        if(aux == NULL) { //nao alocou...
+            v = false;
+        } else {
+            aux->information = x; //1
+            aux->next = NULL; //2
+            if (start == NULL) {
+                start = aux; //3
+                //end = aux;
+            } else {
+                end->next=aux; //4
+                //end = aux;
+            }
+            end = aux; //5
+        }
+        return v;
+    }
+
+    Type remover() {
+        Type temp = start->information;//primeiro
+        Node<Type> *aux = start;
+        start = start->next;
+        if (start == NULL) {
+            end = NULL;
+        }
+        delete aux;
+        return temp;
+    }
+
+    Type primeiro() {
+        return start->information;//primeiro
+    }
+
+    bool filavazia() {
+        return start == NULL;
+    }
+
+    Node<Type> *getstart() {
+        return start;
+    }
+
+
+};
+
+
+#endif // LINKED_QUEUE_H_INCLUDED

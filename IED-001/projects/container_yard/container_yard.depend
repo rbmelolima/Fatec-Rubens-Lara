@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1615857496 source:a:\projetos\estrutura_de_dados_fatec\projects\container_yard\main.cpp
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	"container.h"
+	"stack.h"
+
+1615855800 a:\projetos\estrutura_de_dados_fatec\projects\container_yard\container.h
+
+1615855089 a:\projetos\estrutura_de_dados_fatec\projects\container_yard\stack.h
+

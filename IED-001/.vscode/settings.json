@@ -1,0 +1,18 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/bin": true,
+    "**/obj": true,
+    "**/*.cbp": true,
+    "**/*.cbp.save": true,
+    "**/*.depend": true,
+    "**/*.h.save": true,
+    "**/*.layout": true,
+    "**/*.layout.save": true,
+    "**/*.cpp.save": true,
+  }
+}

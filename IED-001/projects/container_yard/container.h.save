@@ -1,0 +1,42 @@
+#ifndef CONTAINER_H_INCLUDED
+#define CONTAINER_H_INCLUDED
+
+class Container {
+    unsigned int code;
+    unsigned int dimension;
+    unsigned float height;
+
+  public:
+    void set_code(unsigned int _code) {
+      code = _code;
+    }
+
+    void set_dimension() {
+        
+    }
+
+    void set_height() {
+        
+    }
+    
+
+    void clean() {
+      code = 0;
+      dimension = 0;
+      height = 0;
+    }
+
+    int get_code() {
+        return code;
+    }
+
+    int get_dimension() {
+        return dimension;
+    }
+
+    float get_height() {
+        return height;
+    }
+};
+
+#endif // CONTAINER_H_INCLUDED

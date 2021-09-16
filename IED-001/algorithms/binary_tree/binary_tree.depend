@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1621380518 source:a:\projetos\estrutura_de_dados_fatec\algorithms\binary_tree\main.cpp
+	<iostream>
+	"binary_search_tree.h"
+
+1621380155 a:\projetos\estrutura_de_dados_fatec\algorithms\binary_tree\binary_search_tree.h
+	<iostream>
+

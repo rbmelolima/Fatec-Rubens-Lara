@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1618360031 source:a:\projetos\fatec\estrutura_de_dados_fatec\tests\first-test\diamond\main.cpp
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	"diamond.h"
+	"linked_queue.h"
+
+1618359301 a:\projetos\fatec\estrutura_de_dados_fatec\tests\first-test\diamond\diamond.h
+	<math.h>
+
+1618358578 a:\projetos\fatec\estrutura_de_dados_fatec\tests\first-test\diamond\linked_queue.h
+

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1621810579 source:a:\projetos\estrutura_de_dados_fatec\projects\binary_tree_project\main.cpp
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	"binary_search_tree.h"
+
+1621810385 a:\projetos\estrutura_de_dados_fatec\projects\binary_tree_project\binary_search_tree.h
+	<iostream>
+

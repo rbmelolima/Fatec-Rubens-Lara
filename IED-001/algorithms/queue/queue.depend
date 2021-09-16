@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1615337864 source:c:\projects\pessoal\fatec\estrutura_de_dados_fatec\queue\main.cpp
+	<iostream>
+	"queue.h"
+
+1615337709 c:\projects\pessoal\fatec\estrutura_de_dados_fatec\queue\queue.h
+

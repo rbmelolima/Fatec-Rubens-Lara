@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1618337361 source:a:\projetos\fatec\estrutura_de_dados_fatec\projects\pangrama\main.cpp
+	<iostream>
+	<string.h>
+	<conio.h>
+

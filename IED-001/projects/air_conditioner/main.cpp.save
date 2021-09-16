@@ -1,0 +1,30 @@
+#include <iostream>
+#include "AirConditioner.h"
+
+using namespace std;
+
+int main()
+{
+	try {
+		AirConditioner aparelho = AirConditioner(18);
+		cout << "Temperatura: " << aparelho.getTemperatura() << endl;
+
+		aparelho.ligar();
+
+		for(int i = 0; i < 12; i++) {
+			aparelho.mudarTemperatura(1);
+		}
+
+		cout << "Temperatura: " << aparelho.getTemperatura() << endl;
+
+		aparelho.desligar();
+		aparelho.mudarTemperatura(1);
+
+		cout << "Temperatura: " << aparelho.getTemperatura() << endl;
+
+		return 0;
+	} catch (char const* e) {
+			cout << e << endl;
+			return -1;
+	}
+}

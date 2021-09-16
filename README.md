@@ -19,3 +19,10 @@ Solucionar problemas utilizando a lógica de programação e a implementação d
 
 #### Ementa:
 Variáveis, constantes, operadores e expressões. Comando de desvio. Controle de malhas. Vetores e ponteiros. Funções de biblioteca. Estruturas, uniões e tipos definidos pelo usuário. Manipulação de arquivos.
+
+### IED-001: Estrutura de dados
+#### Objetivo:
+Aprofundar conhecimentos sobre criação e manipulação de tipos abstratos de dados: listas, pilhas, filas e árvores.
+
+#### Ementa:
+Revisão dos conceitos básicos de tipos abstratos de dados. Pilhas, filas, alocação dinâmica, recursividade, listas encadeadas, tabelas de espalhamento e árvores. Aplicações das estruturas de dados em problemas computacionais.

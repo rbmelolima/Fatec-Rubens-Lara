@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1616543095 source:a:\projetos\estrutura_de_dados_fatec\algorithms\double_row\main.cpp
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	"double_row.h"
+
+1616542965 a:\projetos\estrutura_de_dados_fatec\algorithms\double_row\double_row.h
+

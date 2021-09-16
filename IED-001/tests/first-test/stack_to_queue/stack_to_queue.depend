@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1618361646 source:a:\projetos\fatec\estrutura_de_dados_fatec\tests\first-test\stack_to_queue\main.cpp
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	"stack.h"
+	"queue.h"
+
+1618360255 a:\projetos\fatec\estrutura_de_dados_fatec\tests\first-test\stack_to_queue\stack.h
+
+1618360242 a:\projetos\fatec\estrutura_de_dados_fatec\tests\first-test\stack_to_queue\queue.h
+

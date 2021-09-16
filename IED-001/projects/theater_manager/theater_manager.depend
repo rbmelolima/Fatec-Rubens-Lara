@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1614725194 source:c:\projects\pessoal\fatec\estrutura_de_dados_fatec\theater_manager\main.cpp
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	"theater.h"
+
+1614648013 c:\projects\pessoal\fatec\estrutura_de_dados_fatec\theater_manager\theater.h
+
+1615734129 source:a:\projetos\estrutura_de_dados_fatec\projects\theater_manager\main.cpp
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	"theater.h"
+
+1615734129 a:\projetos\estrutura_de_dados_fatec\projects\theater_manager\theater.h
+
