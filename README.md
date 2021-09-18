@@ -33,3 +33,10 @@ Implementar de softwares com o uso de uma linguagem de programação orientada a
 
 #### Ementa:
 Conceitos e evolução da tecnologia de orientação a objetos. Limitações e diferenças entre o paradigma da programação estruturada em relação à orientação a objetos. Conceito de objeto, classe, métodos, atributos, herança, polimorfismo, agregação, associação, dependência, encapsulamento, mensagem e suas respectivas notações na linguagem padrão de representação da orientação a objetos. Implementação de algoritmos orientados a objetos utilizando linguagens de programação. Aplicação e uso das estruturas fundamentais da orientação a objetos.
+
+### IES-300: Engenharia de Software III
+#### Objetivo:
+Conhecer e aplicar padrões ao processo de software. Mapear modelos de representação.
+
+#### Ementa:
+Conceitos, evolução e importância de arquitetura de software. Padrões de Arquitetura. Padrões de Distribuição. Camadas no desenvolvimento de software. Tipos de Arquitetura de Software. Visões na arquitetura de software. Modelo de Análise e Projetos. Formas de representação. O processo de desenvolvimento. Mapeamento para implementação. Integração do sistema. Testes: planejamento e tipos. Manutenção. Documentação.
