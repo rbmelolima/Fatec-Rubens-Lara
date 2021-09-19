@@ -13,41 +13,57 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <!-- Styles -->
-  <link rel="stylesheet" href="" rel="preload" />
+  <link rel="stylesheet" href="./styles/global.css" rel="preload" />
   <!-- Page -->
   <title>MVC - IES-300</title>
 </head>
 
 <body>
-
   <main>
     <div class="row">
       <div class="product-image">
         <img src="./assets/macbook.jfif" alt="Foto do Macbook Pro" srcset="">
       </div>
       <div class="column">
-        <table>
-          <tr>
-            <td><strong>ITEM:</strong></td>
-            <td>Nome do produto</td>
-          </tr>
-          <tr>
-            <td><strong>PREÇO:</strong></td>
-            <td>Nome do produto</td>
-          </tr>
-          <tr>
-            <td><strong>QUANTIDADE:</strong></td>
-            <td>Nome do produto</td>
-          </tr>
-          <tr>
-            <td><strong>TOTAL:</strong></td>
-            <td>Nome do produto</td>
-          </tr>
-        </table>
+        <div class="product-information">
+          <div class="row">
+            <strong>Item:</strong>
+            <p id="name-product">Nome do produto</p>
+          </div>
+
+          <div class="row">
+            <strong>Valor:</strong>
+            <p id="value-product">R$ 12.999,00</p>
+          </div>
+
+          <div class="row">
+            <strong>Quantidade:</strong>
+            <p>
+              <input 
+              type="number" 
+              name="qtd-product" 
+              id="qtd-product" 
+              max="10" min="1" 
+              value="1"
+              placeholder="0" 
+              onchange="onChangeQuantity(this)">
+            </p>
+          </div>
+
+          <div class="row">
+            <strong>Total parcial:</strong>
+            <p id="total-value-product"></p>
+          </div>
+
+          <div class="row">
+            <button>Comprar</button>
+          </div>
+        </div class="product-information">
       </div>
     </div>
-
   </main>
+
+  <script src='./js/global.js'></script>
 
 </body>
 
